@@ -1,0 +1,23 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.lfloat{
+    float: left;
+}
+.rfloat{
+    float: right;
+}
+.container{
+    margin: 0px 120px auto;
+}
+.clearfix{
+    overflow: auto;
+}
+@media only screen and (max-width : 450px){
+    .container{
+        width: 100%;
+        margin: auto;
+    }
+
+}
